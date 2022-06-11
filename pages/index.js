@@ -1,6 +1,6 @@
 import { Contract, providers, utils } from "ethers";
 import Head from "next/head";
-import Image from 'next/image'
+//import Image from 'next/image'
 import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
 import { abi, NFT_CONTRACT_ADDRESS } from "../constants";
@@ -385,7 +385,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <Image className={styles.image} src="/cryptodevs/0.svg" alt="CryptodevImg" layout="fill"/>
+          <img className={styles.image} src="/cryptodevs/0.svg" alt="CryptodevImg" layout="fill"/>
         </div>
       </div>
 
